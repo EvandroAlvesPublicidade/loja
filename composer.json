@@ -1,0 +1,18 @@
+{
+    "name": "hcodebr/php-classes",
+    "authors": [
+        {
+            "name": "Loja Virtual",
+            "email": "did1234publicidade@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "rain/raintpl":"3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "": "src"
+        }
+    }
+}
