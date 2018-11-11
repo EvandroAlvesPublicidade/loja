@@ -1,0 +1,297 @@
+<?php if(!class_exists('Rain\Tpl')){exit;}?><!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Loja Virtual</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="" content="">
+    <meta class="viewport" name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <!-- Font -->
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Arimo:300,400,700,400italic,700italic'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'/>
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="res/site/css/buttons/buttons.css">
+    <link rel="stylesheet" href="res/site/css/buttons/social-icons.css">
+    <link rel="stylesheet" href="res/site/css/myicons.css">
+    <link rel="stylesheet" href="res/site/css/bootstrap.min.css">
+    <link rel="stylesheet" href="res/site/css/jslider.css">
+    <link rel="stylesheet" href="res/site/css/settings.css">
+    <link rel="stylesheet" href="res/site/css/tweet-carousel.css">
+    <link rel="stylesheet" href="res/site/css/jquery.fancybox.css">
+    <link rel="stylesheet" href="res/site/css/animate.css">
+    <link rel="stylesheet" href="res/site/css/video-js.min.css">
+    <link rel="stylesheet" href="res/site/css/ladda.min.css">
+    <link rel="stylesheet" href="res/site/css/datepicker.css">
+    <link rel="stylesheet" href="res/site/css/jquery.scrollbar.css">
+    <link rel="stylesheet" href="res/site/css/prettyPhoto.css">
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="res/site/css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="res/site/css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="res/site/css/customizer/pages.css">
+    <link rel="stylesheet" href="res/site/css/customizer/dark-section.css">
+    <link rel="stylesheet" href="res/site/css/customizer/home-pages-customizer.css">
+    <!-- IE Styles-->
+    <link rel='stylesheet' href="res/site/css/ie/ie.css">
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <link rel='stylesheet' href="res/site/css/ie/ie8.css">
+    <![endif]-->
+</head>
+<body class="home fixed-header hidden-top">
+<div class="page-box">
+    <div class="page-box-content">
+        <!-- Page Loader -->
+        <div id="pageloader">
+            <div class="loader-item fa fa-spin text-color"></div>
+        </div>
+        <div id="top-box">
+            <div class="top-box-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-9 col-sm-5">
+                            <div class="btn-group language btn-select">
+                                <a class="btn dropdown-toggle btn-default" role="button" data-toggle="dropdown" href="index-online-shop.html#">
+                                    <span class="hidden-xs">Language</span><span class="visible-xs">Lang</span><!--
+                                    -->: English
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#"><img src="res/site/img/eng-flag.png" alt="">English</a></li>
+                                    <li><a href="#"><img src="res/site/img/fra-flag.png" alt="">France</a></li>
+                                    <li><a href="#"><img src="res/site/img/ger-flag.png" alt="">Germany</a></li>
+                                </ul>
+                            </div>
+                            <div class="btn-group currency btn-select">
+                                <a class="btn dropdown-toggle btn-default" role="button" data-toggle="dropdown" href="index-online-shop.html#">
+                                    <span class="hidden-xs">Currency</span><span class="visible-xs">Curr</span><!--
+                                    -->: USD
+                                    <span class="caret"></span>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="index-online-shop.html#">USD</a></li>
+                                    <li><a href="index-online-shop.html#">EUR</a></li>
+                                    <li><a href="index-online-shop.html#">GBP</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xs-3 col-sm-7">
+                            <div class="navbar navbar-inverse top-navbar top-navbar-right" role="navigation">
+                                <button type="button" class="navbar-toggle btn-navbar collapsed" data-toggle="collapse" data-target=".top-navbar .navbar-collapse">
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                    <span class="icon-bar"></span>
+                                </button>
+                                <nav class="collapse collapsing navbar-collapse">
+                                    <ul class="nav navbar-nav navbar-right">
+                                        <li><a href="#">My Account</a></li>
+                                        <li><a href="#"><i class="fa fa-heart"></i> My Wishlist</a></li>
+                                        <li><a href="#">Checkout</a></li>
+                                        <li><a href="#">Log in <i class="fa fa-lock after"></i></a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- #top-box -->
+        <header class="header header-two">
+            <div class="header-wrapper">
+                <nav class="navbar">
+                    <div class="container">
+                        <div class="navbar-header logo-box">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="res/site/img/logo.png" class="logo-img" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <!-- .logo-box -->
+                        <div class="navbar-right right-box">
+                            <div class="right-box-wrapper">
+                                <div class="header-icons">
+                                    <div class="share-header hidden-600">
+                                        <a href="#">
+                                            <i class="fa fa-share-alt"></i>
+                                        </a>
+                                    </div>
+                                    <!-- .search-header -->
+                                    <div class="search-header hidden-600">
+                                        <a href="#">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                    </div>
+                                    <!-- .search-header -->
+                                    <div class="phone-header hidden-600">
+                                        <a href="#">
+                                            <i class="fa fa-mobile"></i>
+                                        </a>
+                                    </div>
+                                    <!-- .phone-header -->
+                                    <div class="btn-group cart-header">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                            <div class="icon">
+                                                <i class="fa fa-shopping-cart"></i>
+                                            </div>
+                                            <span class="count">6</span>
+                                        </a>
+                                        <div class="dropdown-menu">
+                                            <strong>Recently added item(s)</strong>
+                                            <ul class="list-unstyled">
+                                                <li>
+                                                    <a href="" class="product-image"><img src="res/site/img/content/shop/1.jpg" width="70" height="70" alt=""></a>
+                                                    <a href="#" class="product-remove">
+                                                    </a><!-- .product-remove -->
+                                                    <h4 class="product-name"><a href="" title="">Red Round neck Mens T-shirt</a></h4>
+                                                    <div class="product-price">2 x <span class="price">$11.00</span></div>
+                                                    <div class="clearfix"></div>
+                                                </li>
+                                                <li>
+                                                    <a href="" class="product-image"><img src="res/site/img/content/shop/2.jpg" width="70" height="70" alt=""></a>
+                                                    <a href="#" class="product-remove">
+                                                    </a><!-- .product-remove -->
+                                                    <h4 class="product-name"><a href="" title="">Green V neck Mens T-shirt</a></h4>
+                                                    <div class="product-price">4 x <span class="price">$16.00</span></div>
+                                                    <div class="clearfix"></div>
+                                                </li>
+                                            </ul>
+                                            <div class="cart-button">
+                                                <div class="total-count">$86.00</div>
+                                                <button class="btn btn-default">View Cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- .cart-header -->
+                                </div>
+                                <!-- .header-icons -->
+                                <div class="primary">
+                                    <div class="navbar navbar-default" role="navigation">
+                                        <button type="button" class="navbar-toggle btn-navbar collapsed" data-toggle="collapse" data-target=".primary .navbar-collapse">
+                                            <span class="text"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                            <span class="icon-bar"></span>
+                                        </button>
+                                        <ul class="collapse navbar-collapse nav navbar-nav navbar-center">
+                                            <li class="parent">
+                                                <a href="index.html">Home</a>
+                                            </li>
+                                            <li class="parent">
+                                                <a href="#">Quem Somos</a>
+                                            </li>
+                                            <li class="parent">
+                                                <a href="#">Serviços</a>
+                                                <ul class="sub">
+                                                    <li class="parent">
+                                                        <a href="#">Grid</a>
+                                                        <ul class="sub">
+                                                            <li><a href="">2 Column</a></li>
+                                                            <li><a href="">3 Column</a></li>
+                                                            <li><a href="">4 Column</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="parent">
+                                                        <a href="#">Masonry</a>
+                                                        <ul class="sub">
+                                                            <li><a href="">2 Column</a></li>
+                                                            <li><a href="">3 Column</a></li>
+                                                            <li><a href="">4 Column</a></li>
+                                                            <li><a href="">Full Width</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="">List</a></li>
+                                                    <li class="parent">
+                                                        <a href="#">Single</a>
+                                                        <ul class="sub">
+                                                            <li><a href="">Default</a></li>
+                                                            <li><a href="">Parallax</a></li>
+                                                            <li><a href="">Extended</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="parent">
+                                                <a href="#">Produtos</a>
+                                                <ul class="sub">
+                                                    <li class="parent">
+                                                        <a href="#">Grid</a>
+                                                        <ul class="sub">
+                                                            <li><a href="">2 Column</a></li>
+                                                            <li><a href="">3 Column</a></li>
+                                                            <li><a href="">4 Column</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li class="parent">
+                                                        <a href="#">Masonry</a>
+                                                        <ul class="sub">
+                                                            <li><a href="">2 Column</a></li>
+                                                            <li><a href="">3 Column</a></li>
+                                                            <li><a href="">4 Column</a></li>
+                                                            <li><a href="">Full Width</a></li>
+                                                        </ul>
+                                                    </li>
+                                                    <li><a href="">List</a></li>
+                                                    <li class="parent">
+                                                        <a href="#">Single</a>
+                                                        <ul class="sub">
+                                                            <li><a href="">Default</a></li>
+                                                            <li><a href="">Parallax</a></li>
+                                                            <li><a href="">Extended</a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                            <li class="parent">
+                                                <a href="#">Features</a>
+                                            </li>
+                                            <li class="parent">
+                                                <a href="#">Blog</a>
+                                            </li>
+                                            <li>
+                                                <a href="contact.html">Contact</a>
+                                            </li>
+                                            <li class="parent">
+                                                <a href="#">Shortcodes</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="phone-active col-sm-12 col-md-12">
+                            <a href="#" class="close"><span>close</span>×</a>
+                            <span class="title">Call Us</span> <strong>+0 (123) 456 78 90</strong>
+                        </div>
+                        <div class="search-active col-sm-12 col-md-12">
+                            <a href="#" class="close"><span>close</span>×</a>
+                            <form name="search-form" class="search-form">
+                                <input class="search-string form-control" type="search" placeholder="Enter Your Text & Search Here" name="search-string">
+                                <button class="search-submit">
+                                    <i class="fa  fa-search text-color"></i>
+                                </button>
+                            </form>
+                        </div>
+                        <div class="share-active col-sm-12 col-md-12">
+                            <a href="index.php#" class="close"><span>close</span>×</a>
+                            <div class="header-social btn-icon">
+                                <a class="mistbtn mistbtn-circle mistbtn-icon-white mistbtn-icon-bg-transparent color-hover icon-facebook" href="index-online-shop.html#"></a>
+                                <a class="mistbtn mistbtn-circle mistbtn-icon-white mistbtn-icon-bg-transparent color-hover icon-twitter" href="index-online-shop.html#"></a>
+                                <a class="mistbtn mistbtn-circle mistbtn-icon-white mistbtn-icon-bg-transparent color-hover icon-google" href="index-online-shop.html#"></a>
+                                <a class="mistbtn mistbtn-circle mistbtn-icon-white mistbtn-icon-bg-transparent color-hover icon-pinterest" href="index-online-shop.html#"></a>
+                                <a class="mistbtn mistbtn-circle mistbtn-icon-white mistbtn-icon-bg-transparent color-hover icon-instagram" href="index-online-shop.html#"></a>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            </nav>
+    </div><!-- .header-wrapper -->
+    </header><!-- .header -->

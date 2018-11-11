@@ -13,7 +13,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Loja\\":"vendor\\lojavirtual\\php-classes\\src"
+            "Loja\\": "vendor\\lojavirtual\\php-classes\\src"
         }
     }
 }
