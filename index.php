@@ -1,3 +1,14 @@
+<?php
+require_once ("vendor/autoload.php");
+$app = new \Slim\Slim();
+$app->config('debug', true);
+$app->get('/', function (){
+    $sql = new Loja\DB\Sql();
+    $results = $sql->select("SELECT * FROM tb_users");
+    var_dump($results);
+});
+$app->run();
+?>
 <!doctype html>
 <html lang="en">
 <head>
