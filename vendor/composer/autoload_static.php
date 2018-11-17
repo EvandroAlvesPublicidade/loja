@@ -7,16 +7,16 @@ namespace Composer\Autoload;
 class ComposerStaticInitf7942f0db2824857f48b8528f5da773b
 {
     public static $prefixLengthsPsr4 = array (
-        'L' => 
+        'V' => 
         array (
-            'Loja\\' => 5,
+            'Vognec\\' => 7,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Loja\\' => 
+        'Vognec\\' => 
         array (
-            0 => __DIR__ . '/..' . '/lojavirtual/php-classes/src',
+            0 => __DIR__ . '/..' . '/vognec/php-classes/src',
         ),
     );
 
